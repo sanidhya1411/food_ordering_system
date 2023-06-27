@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+header h3{
+    text-align: center;
+    background: red;
+    color: white;
+    font-size: 2rem;
+}
+.container{
+    padding: 1rem;
+}
+.content .logo{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: gray;
+}
+.content p{
+    color: red;
+    padding: .2rem 0;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.content p i{
+    margin-right: .3rem;
+    color: red;
+}
+
+.box .data{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    padding: 1rem;
+    height: 67vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background: red;
+    color: white;
+}
+
+table{
+    text-align: left;
+}
+th{
+    padding:.5rem;
+    padding-right: .5rem;
+}
+.data p{
+    color: white;
+}
+.data p{
+    padding: .8rem 0;
+}

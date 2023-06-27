@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+html,body{
+    background: url(../images/background.jpg);
+    background-size: cover;
+    width: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.container{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: gray;
+}
+
+.container h1 span{
+    color: red;
+}
+.form a{
+    margin-top: 1rem;
+}
