@@ -40,11 +40,17 @@ header h3{
     align-items: center;
     font-size: 1.3rem;
     background: red;
-    color: white;
+    color: #ffffff;
+    overflow-y: auto;
+    
 }
 
 table{
-    text-align: left;
+    text-align: center;
+}
+tr{
+    display: flex;
+    flex-wrap: wrap;
 }
 th{
     padding:.5rem;
